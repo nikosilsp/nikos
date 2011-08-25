@@ -1,0 +1,23 @@
+log4j (parrallel custom excecution)
+
+nio.java
+tokyo/kyoto cabinet
+jms (rabbitMQ)
+hsqldb
+sqllite
+mysql?
+memcached (MemcacheDB)
+berkley db
+db4o
+mongoDB
+cassandra
+redis
+infinispan
+H2 db
+membase
+
+extensions
+stability / immediate kills after writes returns to verify asyncs
+multi-threaded writing
+transaction
+HBase
