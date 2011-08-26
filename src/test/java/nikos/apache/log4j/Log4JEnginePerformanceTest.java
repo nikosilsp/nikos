@@ -14,8 +14,14 @@ public class Log4JEnginePerformanceTest {
     static final Log4JEngine engine = new Log4JEngine();
     static final int numRecords = 1000000;
 
-    @BeforeClass @AfterClass
-    static public void clearRecords() throws Exception {
+    @AfterClass
+    static public void clearRecordsAfter() throws Exception {
+        engine.init();
+        engine.clearPersistence();
+    }
+
+    @BeforeClass
+    static public void clearRecordsBefore() throws Exception {
         engine.init();
         engine.clearPersistence();
         engine.init();
