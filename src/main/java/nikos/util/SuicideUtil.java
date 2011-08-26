@@ -4,13 +4,13 @@ package nikos.util;
  *
  * @author nikos
  */
-public class SuicideUtil {
+public abstract class SuicideUtil {
 
-    public void kill(Thread thread) {
+    static public void kill(Thread thread) {
         thread.stop();
     }
 
-    public void kill() {
+    static public void kill() {
         Runtime.getRuntime().halt(-100);
     }
 }

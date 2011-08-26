@@ -1,4 +1,4 @@
-package nikos.phases.execution;
+package nikos.phases.execution.skeleton;
 
 import org.junit.Test;
 
@@ -6,10 +6,10 @@ import org.junit.Test;
  *
  * @author nikos
  */
-public class DestroyTest {
-
+public class CleanupTest {
+    
     @Test
-    public void dummy() {
+    public void dummy(){
         System.err.println(this.getClass().getName());
     }
 }

@@ -1,4 +1,4 @@
-package nikos.phases.execution;
+package nikos.phases.execution.skeleton;
 
 import org.junit.Test;
 
@@ -6,7 +6,7 @@ import org.junit.Test;
  *
  * @author nikos
  */
-public class WriteTest {
+public class ReadTest {
 
     @Test
     public void dummy() {

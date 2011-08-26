@@ -17,7 +17,7 @@ H2 db
 membase
 
 extensions
-stability / immediate kills after writes returns to verify asyncs
+stability / immediate kills after writes returns to verify async s
 multi-threaded writing
 transaction
 HBase

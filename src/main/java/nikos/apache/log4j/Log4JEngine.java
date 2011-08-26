@@ -3,7 +3,6 @@ package nikos.apache.log4j;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Enumeration;
 import nikos.util.CheckContentsUtil;
 import nikos.util.type.PersistenceEngine;
 
@@ -11,7 +10,6 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Level;
 import org.apache.log4j.PatternLayout;
-import org.apache.log4j.spi.NOPLogger;
 import org.apache.commons.io.IOUtils;
 
 /**
