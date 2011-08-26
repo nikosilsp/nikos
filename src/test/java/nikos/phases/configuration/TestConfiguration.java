@@ -6,10 +6,10 @@ package nikos.phases.configuration;
  */
 public abstract class TestConfiguration {
 
-    final public static int writeSize = 1000000;
+    final public static int writeSize = 100;
     final public static int entrySize = 5;
     final public static String dataUnit = "@#$ZX";
-    final public static String delimiter = "-";
+    final public static String delimiter = "\n";
 
     public static final String createTestData() {
         final StringBuilder builder = new StringBuilder();

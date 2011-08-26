@@ -22,7 +22,10 @@ public class Log4JEngineReadTest {
     @Test
     public void readAndVerify() throws Exception{
         final String dataExpected = TestConfiguration.createTestData();
-        final String dataRead = engine.readData();
+        final String dataRead = engine.readData().substring(0,dataExpected.length());
+        System.err.println(dataRead.length());
+        System.err.println(dataRead.charAt(dataRead.length()-1));
+        System.err.println(dataExpected.length());
         Assert.assertEquals(dataExpected, dataRead);
         
 //        final String [] dataReadArray = dataRead.split("\n"); 
